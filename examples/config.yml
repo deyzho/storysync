@@ -1,0 +1,18 @@
+cat <<EOL > examples/config.yaml
+llm:
+  type: grok3
+  config:
+    api_key: your_grok3_api_key
+repo:
+  platform: github
+  config:
+    token: your_github_token
+    url: https://github.com/user/repo
+issue_tracker:
+  platform: jira
+  config:
+    base_url: https://your-domain.atlassian.net
+    api_token: your_jira_api_token
+    email: your_email@example.com
+    project_key: PROJ
+EOL
