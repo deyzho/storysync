@@ -19,9 +19,9 @@ pip install -r requirements.txt
 1. Configure in \`examples/config.yaml\`:
    \`\`\`yaml
    llm:
-     type: grok3
+     type: llm
      config:
-       api_key: your_grok3_api_key
+       api_key: your_api_key
    repo:
      platform: github
      config:
