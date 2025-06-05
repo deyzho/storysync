@@ -1,0 +1,16 @@
+issue_tracker:
+  config:
+    api_token: ''
+    base_url: ''
+    email: ''
+    project_key: ''
+  platform: jira
+llm:
+  config:
+    api_key: ''
+  type: openai
+repo:
+  config:
+    token: ''
+    url: ''
+  platform: github
