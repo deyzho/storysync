@@ -10,6 +10,13 @@ StorySync is an open-source framework for automating story-driven development, a
 - Basic Jira integration (issue creation, status retrieval).
 - MIT License.
 
+## Documentation
+- [Quickstart](docs/quickstart.md)
+- [Usage](docs/usage.md)
+- [LLM Plugins](docs/llm_plugins.md)
+- [Repository Plugins](docs/repo_plugins.md)
+- [Contributing](docs/contributing.md)
+
 ## Installation
 \`\`\`bash
 pip install -r requirements.txt

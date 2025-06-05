@@ -4,7 +4,7 @@ issue_tracker:
     base_url: ''
     email: ''
     project_key: ''
-  platform: jira
+  platform: ''
 llm:
   config:
     api_key: ''
@@ -13,4 +13,4 @@ repo:
   config:
     token: ''
     url: ''
-  platform: github
+  platform: bitbucket

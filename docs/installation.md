@@ -16,4 +16,18 @@ cat <<EOL > docs/installation.md
    pip install -r requirements.txt
    \`
 3. Configure \`examples/config.yaml\` with your API keys.
-EOL
+
+## Environment Variables
+Override `config.yaml` with:
+- `LLM_API_KEY`: LLM API key
+- `REPO_TOKEN`: GitHub/GitLab/Bitbucket token
+- `REPO_URL`: Repository URL
+- `JIRA_BASE_URL`: Jira base URL
+- `JIRA_API_TOKEN`: Jira API token
+- `JIRA_EMAIL`: Jira email
+- `JIRA_PROJECT_KEY`: Jira project key
+
+Example:
+```bash
+export LLM_API_KEY=your_grok3_key
+python -m src.main --config config.yaml --story "Test story"
